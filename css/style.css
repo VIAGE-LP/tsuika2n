@@ -34,12 +34,21 @@ summary, hgroup {
     width: 840px;
 }
 
+.sns .sns_fb{
+    width:55%;
+    margin:0 auto;
+}
+
 @media screen and (max-width: 768px){
     .fv img {
         width: 100%;
     }
     .fv .mainview{
         width: 100%;
+    }
+
+    .sns .sns_fb{
+        width:85%;
     }
 }
 
